@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['My-pink-anime-figure']
+
+roboflow:
+  workspace: bobus
+  project: my-pink-anime-figure
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bobus/my-pink-anime-figure/dataset/1
